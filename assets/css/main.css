@@ -1,0 +1,463 @@
+
+
+/* Global CSS*/
+* {-webkit-font-smoothing: antialiased;} 
+
+#product_widget {
+    max-width: 262px;
+    border: 1px solid #b0b0b0;
+    background-color: #e5e5e5;
+    height: 60px;
+    margin-top: 25px;
+    position: relative;
+    background: #f2f2f2 none repeat scroll 0 0;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 2px 2px #f6f6f6;
+    color: #374853;
+    font-size: 1.1em;
+    margin-bottom: 2em;
+    padding-top: 0.5em;
+} 
+
+#product_widget #stars {
+    text-align: center;
+} 
+
+#product_widget #end {
+    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #f4bd38 1%, #cc8f24 100%) repeat scroll 0 0;
+    border-bottom-left-radius: inherit;
+    border-bottom-right-radius: inherit;
+    bottom: 2px;
+    height: 22px;
+    position: absolute;
+    width: 100%;
+} 
+
+div.ac_rating {
+    display: inline-block;
+    background: rgba(0, 0, 0, 0) url("../images/0star.png") no-repeat scroll left bottom;
+    height: 24px;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    width:122px;
+} 
+
+div.ac_rating_bg {
+    display: inline-block;
+    text-align: left;
+    background: transparent url("../images/5star.png") no-repeat scroll left bottom;
+    height: 24px;
+} 
+
+#product_widget #end a {
+    color: black;
+    display: block;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 33px;
+} 
+
+#product_widget img#seal {
+    width: 96px;
+    margin-top: -8px;
+} 
+
+#ag-s {
+    clear: both;
+    color: #6d7f8a;
+    margin: 0px 0px 10px 0px !important;
+    padding-top: 16px !important;
+} 
+
+#ag-s .published {
+    font-weight:600;
+} 
+ 
+#ag-s #ag-header {
+    display: block;
+    padding: 5px;
+} 
+
+#ag-s #commentaires {
+    padding: 10px;
+} 
+
+#ag-s .avis-garantis {
+    border-top: 2px solid #ccc;
+    padding-bottom: 20px;
+} 
+
+#ag-s .avis-garantis ul.ag-details {
+    list-style: outside none none;
+    margin: 15px 0 0;
+} 
+ 
+#ag-s .avis-garantis ul.ag-details li {
+    display: inline-block;
+    height: 25px;
+    line-height: 25px;
+} 
+
+#ag-s ul#ag-header-text {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 22px;
+    vertical-align: top;
+} 
+ 
+#more_info_sheets li {
+    margin-bottom: 5px;
+} 
+
+#ag-s .avis-garantis ul.ag-details li.ag-note {
+    font-size: 13px;
+    font-weight: 600;
+} 
+ 
+#ag-s .ag-tr.top:before {
+    border-width: 0 14px 13px;
+    bottom: auto;
+    left: 10px;
+    top: -13px;
+} 
+#ag-s .ag-tr:before {
+    border-color: #d5d5d5 transparent;
+    border-style: solid;
+    content: "";
+    position: absolute;
+} 
+#ag-s .ag-tr.top:after {
+    border-width: 0 13px 13px;
+    left: 11px;
+    top: -12px;
+} 
+#ag-s .ag-tr:after {
+    border-color: #fff transparent;
+    border-style: solid;
+    content: "";
+    position: absolute;
+    width: 0;
+} 
+#ag-s .ag-tr {
+    border: 1px solid #d5d5d5;
+    border-radius: 7px;
+    color: black;
+    margin: 7px 0 3px;
+    padding: 12px;
+    position: relative;
+} 
+ 
+#certificat {
+    display: inline-block;
+    float: right;
+    vertical-align: top;
+    font-size: 15px;
+} 
+
+#seal_im {
+    float: left;
+    margin-left: -30px;
+    margin-top: -15px;
+} 
+
+#stars {
+    margin-right: 18px;
+} 
+
+.reviewer_name {
+    text-transform:capitalize;
+} 
+ 
+#agWidgetH p {
+    color: #175298;
+} 
+#ag-s .reviewTxt p {
+    color: #111111;
+} 
+ 
+
+
+
+
+
+
+
+
+
+
+
+.rad{-moz-border-radius: 8px;-webkit-border-radius:8px; border-radius:8px;} 
+.rad4{-moz-border-radius:4px;-webkit-border-radius:4px; border-radius:4px;} 
+meta, .metaHide {display:none !important} 
+.agWidget { color:#111111; font-family: 'Open Sans', sans-serif; font-weight:400} 
+.inner, .inner2{padding:12px;} 
+.reviewGlobal { display:inline-block !important; vertical-align:top !important; color:#175298 !important; } 
+.reviewGlobal p {margin:0 !important; padding:0 !important; display:block !important; font-size:12px !important; line-height:12px !important; letter-spacing:0 !important; margin-bottom:10px !important;} 
+
+/* Etoile */
+.steavisgarantisStar{ width:111px; max-width:111px; position:relative; margin:0 0 0 -4px; padding:0; height:30px; margin-bottom:4px} 
+.steavisgarantisStar span {width:100%; display:block; height:30px; position:absolute; left:0; top:0; background:url('../images/star_off.png') left center; background-size:111px 30px;} 
+.steavisgarantisStar svg.note {  display:block; height:30px; overflow:hidden; width:111px; max-width:111px; position: relative; }
+.woocommerce-loop-product__link .steavisgarantisStar { margin: 0 auto; }
+.sag_rate {	overflow:hidden; height:30px; position:relative;}
+/* Etoiles catégories */
+.categoryStarsMain { zoom: 0.61; display: inline;}
+.categoryStarsMain .categoryStars {display: inline-block; width: 111px; max-width: 111px; position: relative; margin: 0 0 4px -4px; padding: 0; height: 18px;}
+.categoryStars svg.note {  display:block; height:30px; overflow:hidden; position: relative;}
+.categoryStarsMain .categoryStarsStr { display: inline-block; font-weight: normal; position: relative; top: -7px;}
+
+/*NOTES*/
+.largeNote, .largeNote p{ font-family: 'Oswald', Arial ; font-weight:700; font-size:22px; line-height:22px; letter-spacing:0; color:#175298; } 
+.largeNote big { font-size:36px; letter-spacing:-2px;} 
+
+/*list des avis*/
+.reviewList { padding:4px 0; margin:8px auto 12px auto; line-height:16px; font-family: 'Open Sans', sans-serif; text-align:left}
+.reviewList li{ list-style:none; border-top:1px dashed #c5cee0; padding:10px 0; position:relative}
+.author { letter-spacing:0; font-size:15px; line-height:18px; color:#175298; font-weight:600}
+.author .authorAvatar { float:left; margin:4px 8px 8px 0; width:24px;}
+.author .agFlag { margin:0 0 -3px 5px; width:16px; vertical-align: initial !important; display: inline-block !important; filter: none !important;}
+.author .time{ display:inline-block; font-size:9.5px; font-weight:400;}
+.customAnswers { font-style: italic; font-size:11px;}
+.customAnswerLabel { font-weight: 600;}
+.reponse p {display:block; margin:4px 0 0 0; font-size:12px; line-height:14px; letter-spacing:0px}
+.reviewTxt span, .reviewTxt p {display:inline-block; font-size:12px; line-height:14px; letter-spacing:0px}
+.reviewTxt .postContent {display: block !important;}
+.reviewTxt meta {display:none}
+.reponse {display:block; padding:8px 12px; background:#ffffff; margin-top:10px }
+.reponse span { font-size:11px; line-height:11px; color:#175298; letter-spacing:0}
+.reponse span img {margin-right:6px; float:left; width:12px;}
+.reponse p { font-style:italic; font-size:12px;}
+
+/*steavisgarantisStats*/
+.steavisgarantisStats { display:inline-block;} 
+.steavisgarantisStats .item { height:116px; display:inline-block; margin:0 2px} 
+.steavisgarantisStats .item .stat, .steavisgarantisStats  .item .name, .steavisgarantisStats .item .stat .note .value   {display:block; width:20px; } 
+.steavisgarantisStats .item .stat{ height:88px; background: none; position:relative;  border:0px solid #F00} 
+.steavisgarantisStats .item .stat .note { position:absolute; left:0; bottom:0; height:0; width:20px; background:#f5d700; text-align:center} 
+.steavisgarantisStats .item .stat .note .value {position:absolute; top:-8px; left:0; font-size:9px; text-align:center; color:#777777  } 
+.steavisgarantisStats .item .name { font-size:11px; text-align:center; height:20px; line-height:20px; color:#f5d700; letter-spacing:0} 
+
+/*boutons*/
+.agBt { display: inline-block; background:#175298; border:1px solid #175298; color:#ffffff !important; font-size:11px !important; line-height:11px; letter-spacing:1px; text-transform:uppercase; text-align:center; padding:4px 10px; width:auto; text-decoration: none !important; } 
+a.agBt.rad4:focus:not(.wp-block-button__link):not(.wp-block-file__button), a.agBt.certificateBtn:focus:not(.wp-block-button__link):not(.wp-block-file__button) {background:#175298;}
+.es a.agBt.rad4:focus:not(.wp-block-button__link):not(.wp-block-file__button),.es  a.agBt.certificateBtn:focus:not(.wp-block-button__link):not(.wp-block-file__button) {background:#021F3C;}
+.it a.agBt.rad4:focus:not(.wp-block-button__link):not(.wp-block-file__button),.it  a.agBt.certificateBtn:focus:not(.wp-block-button__link):not(.wp-block-file__button) {background:#067a45;}
+.agBt:hover { background:none !important; color:#175298 !important; text-decoration:none !important;} 
+.agBtBig {font-size:11px; line-height:11px; padding:5px 14px;} 
+
+/* WIDGET HORIZONTAL*/
+#agWidgetH{ display:block; width:100%; max-width:275px;  line-height:0; text-align:center; margin:20px 0px;} 
+
+#agWidgetH .logoAg { max-height:77px; display:inline-block; margin-right:6%; outline: none;}
+#agWidgetH .inner  {padding-bottom:12px}
+#agWidgetH .reviewGlobal {text-align:left}
+
+/*# WIDGET LATERAL*/
+#agWidgetSide{ display:block; width:100%; max-width:100%;  line-height:0; text-align:center; padding-bottom:18px} 
+
+#agWidgetSide .inner  {padding:12px 12px 0 12px} 
+#agWidgetSide .logoAg {display:block; margin:8px auto 24px auto } 
+#agWidgetSide .reviewList {max-height:300px; width:100%; overflow-x: hidden;overflow-y: scroll;} 
+#agWidgetSide .reviewList::-webkit-scrollbar-track{border-radius: 2px;background-color: #175298;} 
+#agWidgetSide .reviewList::-webkit-scrollbar{width: 2px;    background-color: #f5d700;} 
+#agWidgetSide .reviewList::-webkit-scrollbar-thumb{    border-radius: 2px;    background-color: #f5d700;} 
+#agWidgetSide .reviewList li { width:92%; margin:0 0 0 5%} 
+#agWidgetSide .author { line-height:16px;  font-size:14px; } 
+
+/*WIDGET MAIN*/
+.topBar {background:#2c2c2c; color:#ffffff; text-align:center; font-size:13px; line-height:11px; letter-spacing:2px; padding:10px 0; text-transform:uppercase} 
+#agWidgetMain { display:block; width:100%; max-width:100%;  line-height:0; text-align:center; overflow:hidden; padding-bottom:12px; margin:0} 
+
+#agWidgetMain .inner { text-align:left; overflow:hidden; height:106px; padding:25px 14px 20px 14px} 
+#agWidgetMain .logoCont , #agWidgetMain .statCont, #agWidgetMain .reviewCont { display:inline-block; height:100px;  vertical-align:top; } 
+#agWidgetMain .logoCont {display: inline-block; width:41%;  } 
+#agWidgetMain .statCont  { width:28%; text-align:center; min-width:140px;} 
+#agWidgetMain .reviewCont {width:27%;text-align:right; } 
+#agWidgetMain .logoCont img {max-width:151px} 
+#agWidgetMain .logoCont .agBt {margin:6px 0 0 12px} 
+#agWidgetMain .statCont  .steavisgarantisStats{} 
+#agWidgetMain .reviewCont  .reviewGlobal {text-align:center; padding-top:26px } 
+#agWidgetMain .largeNote{  font-size:24px; line-height:28px;  letter-spacing:-1px;  } 
+#agWidgetMain .largeNote big { font-size:50px; letter-spacing:-3px;} 
+#agWidgetMain .reviewList { padding:0; margin:0 auto 8px auto} 
+#agWidgetMain .reviewList li { border-top:none; padding:16px 20px; margin:0;} 
+#agWidgetMain .largeNote {width:120px; } 
+#agWidgetMain .logoAg {display:block; margin:10px} 
+#agWidgetMain .steavisgarantisStar { position:absolute; top:12px; right:16px} 
+#agWidgetMain .reviewTxt p { font-weight:400; margin:6px 0; letter-spacing:0; padding:0px} 
+#agWidgetMain .certificateBtn {padding:5px 15px;} 
+#agWidgetMain #chargement{ margin: auto; }
+
+@media (max-width: 600px) {
+    #agWidgetMain .statCont {display:none !important} 
+    #agWidgetMain .logoCont { width:60%} 
+    #agWidgetMain .reviewCont { width:40%} 
+} 
+@media (max-width: 400px) {
+    #agWidgetMain .reviewList .steavisgarantisStar {display:block !important; position:relative; top: auto; right:auto;} 
+} 
+ 
+/* Footer Link */
+#steavisgarantisFooterVerif {
+    text-align:center;
+    margin:5px auto;
+    display: table;
+} 
+#steavisgarantisFooterVerif img{
+    margin-right: 3px;
+    width: 20px !important;
+    max-width: 20px;
+} 
+
+#steavisgarantisFooterText {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 12.5px;
+} 
+
+#steavisgarantisFooterText a {
+    font-size: 12.5px;
+} 
+ 
+/*background*/
+.bgGrey0{ background:#f9f9f9} 
+.bgGrey1{ background:#f3f3f3} 
+
+#agWidgetH{/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f3f3f3+0,fefefe+16,fefefe+26,f3f3f3+51 */
+background: #f3f3f3; /* Old browsers */
+background: -moz-linear-gradient(left,  #f3f3f3 0%, #fdfdfd 16%, #fefefe 26%, #f3f3f3 51%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #f3f3f3 0%,#fdfdfd 16%,#fefefe 26%,#f3f3f3 51%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #f3f3f3 0%,#fdfdfd 16%,#fefefe 26%,#f3f3f3 51%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 ); /* IE6-9 */
+-moz-box-shadow:inset 0px 0px 0px 1px #dfdfdf; box-shadow:inset 0px 0px 0px 1px #dfdfdf;} 
+
+#agWidgetSide , #agWidgetMain{
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fefefe+7,fefefe+28,f3f3f3+52 */
+background: #fefefe; /* Old browsers */
+background: -moz-linear-gradient(top,  #fefefe 7%, #fefefe 28%, #f3f3f3 52%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #fefefe 7%,#fefefe 28%,#f3f3f3 52%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #fefefe 7%,#fefefe 28%,#f3f3f3 52%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-9 */
+-moz-box-shadow:inset 0px 0px 0px 1px #dfdfdf; box-shadow:inset 0px 0px 0px 1px #dfdfdf;} 
+
+/*transition*/
+.agBt { -webkit-transition: background 0.4s ease; -moz-transition: background 0.4s ease;
+-ms-transition: background 0.4s ease;-o-transition: background 0.4s ease; transition: background 0.4s ease;} 
+ 
+#agWidgetMain .inner.bgGrey1{
+    box-sizing:initial !important;
+} 
+ 
+/* Si mobile */
+@media screen and (max-width: 750px) {
+    .agJsWidget {
+        display:none;
+    } 
+    #steavisgarantis.agWidget.rad {
+        display:none;
+    } 
+} 
+
+
+/* Définitions de langues */
+#ag-s.de .largeNote, .de .largeNote p, .de .author {
+	color: #333333;
+}
+
+
+#ag-s.de .author img, .it .author img , .de .reponse img, .it .reponse img {
+	filter: grayscale(1);
+}
+
+#ag-s.es .author img, .es .reponse img {
+	filter: brightness(0.4);
+}
+
+
+
+#agWidgetH.inline {
+  background: none !important;
+  box-shadow: none !important;
+  max-width: 300px !important;
+  margin: 0;
+  padding: 10px 0;
+}
+#agWidgetH.inline .inner {
+  padding: 0;
+  margin: 0;
+}
+#agWidgetH.inline .reviewGlobal {
+  display: flex !important;
+  justify-content: flex-start !important;
+  align-items: center !important;
+  position: relative !important;
+}
+#agWidgetH.inline p {
+  color: #000 !important;
+  text-align: center;
+  text-transform: none;
+  margin: 0 0 0 10px !important;
+  font-weight: 500;
+}
+#agWidgetH.inline .agBt {
+  display: flex !important;
+  align-items: center;
+  background: none !important;
+  border: none !important;
+  padding: 0!important;
+  margin:0!important;
+}
+
+#agWidgetH.inline .steavisgarantisStar{
+  margin: 0 !important;
+}
+
+#agWidgetH.de p {
+	color: #333333;
+}
+
+#agWidgetH.it p, .it .largeNote, .it .largeNote p {
+	color: #333;
+}
+
+#ag-s.it .author {
+	color: #333333;
+}
+
+#agWidgetH.es p, .es .largeNote, .es .largeNote p {
+	color: #021F3C;
+}
+
+#ag-s.es .author {
+	color: #021F3C;
+}
+
+	
+.de .agBt:hover { background:none; color:#333333 !important; text-decoration:none !important;}
+.de .agBt { 
+	background:#333333;
+	border: 1px solid #333333;
+}
+.de .reponse span { color: #333333;}
+
+.it .agBt:hover { background:none; color:#067a45 !important; text-decoration:none !important;}
+.it .agBt { 
+	background:#067a45;
+	border: 1px solid #067a45;
+}
+.it .reponse span { color: #067a45;}
+
+.es .agBt:hover { background:none; color:#021F3C !important; text-decoration:none !important;}
+.es .agBt { 
+	background:#021F3C;
+	border: 1px solid #021F3C;
+}
+.es .reponse span { color: #021F3C;}
+
+_::-webkit-full-page-media, _:future, :root .author {
+
+    align-items: inherit!important;
+
+}

@@ -1,0 +1,480 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce - Guaranteed Reviews Company\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-15 16:48+0100\n"
+"PO-Revision-Date: 2022-11-15 16:55+0100\n"
+"Last-Translator: avis garantis <contact@societe-des-avis-garantis.fr>\n"
+"Language-Team: Néerlandais\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/class-wc-sag-admin-page.php:27 inc/class-wc-sag-admin-page.php:28
+#: views/account-page.php:14 views/settings-page.php:14
+msgid "Guaranteed Reviews Company"
+msgstr "Gegarandeerde Beoordelingen Nederland"
+
+#: inc/class-wc-sag-shortcode-footer.php:30
+#: inc/class-wc-sag-widget-footer.php:42
+msgid "Error: cannot retrieve merchant certificate."
+msgstr "Fout: kan handelaarscertificaat niet ophalen."
+
+#: inc/class-wc-sag-widget-footer.php:14
+msgid "GRC Checking link"
+msgstr "GBN Link controleren"
+
+#: inc/class-wc-sag-widget-footer.php:15
+msgid ""
+"Display a checking link in the footer pointing to your attestation page. "
+"(Important for your SEO)"
+msgstr ""
+"Plaats een controlelink in de voettekst die naar uw attestpagina verwijst. "
+"(Belangrijk voor uw SEO)"
+
+#: inc/class-wc-sag-widget-footer.php:59 inc/class-wc-sag-widget-iframe.php:64
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/class-wc-sag-widget-iframe.php:14
+msgid "GRC Widget iFrame"
+msgstr "GBN Widget iFrame"
+
+#: inc/class-wc-sag-widget-iframe.php:15
+msgid ""
+"Display vertical or horizontal widget with reviews (we recommend to place it "
+"in a column or in the footer)"
+msgstr ""
+"Verticale widget of horizontale widget met beoordelingen weergeven (wij "
+"raden aan om deze in een kolom of in de voettekst te plaatsen)"
+
+#: inc/class-wc-sag-widget-iframe.php:45
+msgid "Please configure the plugin correctly to display this widget."
+msgstr ""
+"Gelieve de plugin correct te configureren om deze widget weer te geven."
+
+#: inc/class-wc-sag-widget-iframe.php:68
+msgid "Iframe height:"
+msgstr "Iframe hoogte:"
+
+#: inc/class-wc-sag-widget-iframe.php:72
+msgid "Format:"
+msgstr "Formaat:"
+
+#: inc/class-wc-sag-widget-iframe.php:74
+msgid "Horizontal"
+msgstr "Horizontaal"
+
+#: inc/class-wc-sag-widget-iframe.php:76
+msgid "Vertical"
+msgstr "Verticaal"
+
+#: views/account-page.php:25
+msgid "Create an account"
+msgstr "Maak een account aan"
+
+#: views/account-page.php:27
+msgid "Please create an account on to get an API key."
+msgstr "Maak een account aan om een API sleutel te krijgen."
+
+#: views/account-page.php:31
+msgid "In less than 3 minutes!"
+msgstr "In minder dan 3 minuten!"
+
+#: views/account-page.php:34
+msgid "30 days trial"
+msgstr "30 dagen op proef"
+
+#: views/account-page.php:40
+msgid "Account language"
+msgstr "Taal van de rekening"
+
+#: views/account-page.php:45
+msgid "French (Société des Avis Garantis)"
+msgstr "Frans (Société des Avis Garantis)"
+
+#: views/account-page.php:49
+msgid "English (Guaranteed Reviews Company)"
+msgstr "Engels (Guaranteed Reviews Company)"
+
+#: views/account-page.php:53
+msgid "Spanish (Sociedad de Opiniones Contrastadas)"
+msgstr "Spaans (Sociedad de Opiniones Contrastadas)"
+
+#: views/account-page.php:57
+msgid "Italian (Società Recensioni Garantite)"
+msgstr "Italiaans (Società Recensioni Garantite)"
+
+#: views/account-page.php:61
+msgid "German (Gesellschaft für Garantierte Bewertungen)"
+msgstr "Duits (Gesellschaft für Garantierte Bewertungen)"
+
+#: views/account-page.php:65
+msgid "Dutch (Gegarandeerde Beoordelingen Nederland)"
+msgstr "Nederlands (Gegarandeerde Beoordelingen Nederland)"
+
+#: views/account-page.php:72
+msgid "Create your account"
+msgstr "Maak uw account aan"
+
+#: views/account-page.php:89
+msgid "Already registered?"
+msgstr "Ben je al ingeschreven?"
+
+#: views/account-page.php:94 views/settings-page.php:37
+msgid "API Key"
+msgstr "API Sleutel"
+
+#: views/account-page.php:100
+msgid "Available on your Guaranteed Reviews Company account. "
+msgstr "Beschikbaar op uw Gegarandeerde Beoordelingen Nederland rekening. "
+
+#: views/account-page.php:109
+msgid "Submit"
+msgstr "Indienen"
+
+#: views/loop-star-rating.php:30
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s recensie"
+msgstr[1] "%s recensies"
+
+#: views/settings-page.php:17
+msgid "Settings saved!"
+msgstr "Instellingen opgeslagen!"
+
+#: views/settings-page.php:21
+msgid "All reviews successfully deleted"
+msgstr "Alle beoordelingen succesvol verwijderd"
+
+#: views/settings-page.php:25
+msgid "Account successfully created!"
+msgstr "Account succesvol aangemaakt!"
+
+#: views/settings-page.php:32
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+#: views/settings-page.php:91
+msgid "Order statuses to include"
+msgstr "Bestel statussen te omvatten"
+
+#: views/settings-page.php:100
+msgid ""
+"Select order statuses you want to send review requests (Use \"Ctrl\" "
+"keyboard key to select many ones)"
+msgstr ""
+"Selecteer orderstatussen die u beoordelingsverzoeken wilt sturen (Gebruik de "
+"\"Ctrl\"-toets om er veel te selecteren)"
+
+#: views/settings-page.php:107
+msgid "Widget options"
+msgstr "Widget opties"
+
+#: views/settings-page.php:112
+msgid "Javascript"
+msgstr "Javascript"
+
+#: views/settings-page.php:116
+msgid "Javascript widget"
+msgstr "Javascript widget"
+
+#: views/settings-page.php:119
+msgid "Enable Javascript widget"
+msgstr "Activeer Javascript widget"
+
+#: views/settings-page.php:127
+msgid "Product"
+msgstr "Product"
+
+#: views/settings-page.php:131
+msgid "Product widget"
+msgstr "Product widget"
+
+#: views/settings-page.php:134
+msgid "Enable product widget"
+msgstr "Activeer product widget"
+
+#: views/settings-page.php:136
+msgid ""
+"Alternatively you can use <code>[wcsag_summary]</code> and "
+"<code>[wcsag_reviews]</code> shortcodes on your product page"
+msgstr ""
+"Als alternatief kunt u gebruik maken van <code>[wcsag_summary]</code> en "
+"<code>[wcsag_reviews]</code> shortcodes op uw product pagina"
+
+#: views/settings-page.php:143 views/settings-page.php:147
+msgid "Minimum product reviews before display"
+msgstr "Minimale productbeoordelingen vóór vertoning"
+
+#: views/settings-page.php:150
+msgid ""
+"Choose number of reviews needed for widgets to be displayed (on product "
+"page)."
+msgstr ""
+"Kies het aantal reviews dat nodig is om widgets weer te geven (op "
+"productpagina)."
+
+#: views/settings-page.php:158 views/settings-page.php:162
+msgid "Product widget rating"
+msgstr "shortcodes op uw productpagina"
+
+#: views/settings-page.php:164
+msgid "Choose Widget product rating style (On product pages)"
+msgstr "Kies Widget productbeoordelingsstijl (op productpagina's)"
+
+#: views/settings-page.php:169 views/settings-page.php:219
+msgid "Disable"
+msgstr "Uitschakelen"
+
+#: views/settings-page.php:171
+msgid "Classic style"
+msgstr "Klassieke stijl"
+
+#: views/settings-page.php:173
+msgid "Logo & stars"
+msgstr "Logo & sterren"
+
+#: views/settings-page.php:175
+msgid "Stars"
+msgstr "Sterren"
+
+#: views/settings-page.php:209 views/settings-page.php:213
+msgid "Country flags on product widget"
+msgstr "Landvlaggen op productwidget"
+
+#: views/settings-page.php:215
+msgid "Choose when the country flag is displayed (on product pages)"
+msgstr "Kies wanneer de landenvlag wordt getoond (op productpagina's)"
+
+#: views/settings-page.php:221
+msgid "Enable only for translated reviews"
+msgstr "Alleen inschakelen voor vertaalde beoordelingen"
+
+#: views/settings-page.php:223
+msgid "Enable for every review"
+msgstr "Inschakelen voor elke beoordeling"
+
+#: views/settings-page.php:231
+msgid "Iframe"
+msgstr "Iframe"
+
+#: views/settings-page.php:235
+#, php-format
+msgid ""
+"Use <code>[wcsag_iframe]</code> shortcode or our widget in <a href=\"%s"
+"\">Appearance > Widgets</a>."
+msgstr ""
+"Gebruik <code>[wcsag_iframe]</code> shortcode of onze widget in <a href=\"%s"
+"\">Uiterlijk > Widgets </a>."
+
+#: views/settings-page.php:241
+msgid "Footer"
+msgstr "Voettekst"
+
+#: views/settings-page.php:245
+msgid "Footer widget"
+msgstr "Voetregel widget"
+
+#: views/settings-page.php:248
+msgid "Enable footer widget"
+msgstr "Activeer voettekst widget"
+
+#: views/settings-page.php:250
+#, php-format
+msgid ""
+"Works with storefront based themes. Alternatively you can use "
+"<code>[wcsag_footer]</code> shortcode or our widget in <a href=\"%s"
+"\">Appearance > Widgets</a>."
+msgstr ""
+"Works with storefront based themes. Als alternatief kunt u gebruik maken van "
+"<code>[wcsag_footer]</code> shortcode of onze widget in <a href=\"%s"
+"\">Uiterlijk > Widgets</a>."
+
+#: views/settings-page.php:257 views/settings-page.php:261
+msgid "Loop rating"
+msgstr "Luswaardering"
+
+#: views/settings-page.php:264
+msgid "Display star rating on product list"
+msgstr "Sterrenscore weergeven op productlijst"
+
+#: views/settings-page.php:272 views/settings-page.php:276
+msgid "Maximum product reviews"
+msgstr "Maximale productbesprekingen"
+
+#: views/settings-page.php:279
+msgid ""
+"Choose how many product reviews you would like to show by default before "
+"showing the \"Show more reviews\" button"
+msgstr ""
+"Kies hoeveel productbeoordelingen u standaard wilt tonen voordat u de knop "
+"\"Toon meer beoordelingen\" toont"
+
+#: views/settings-page.php:287 views/settings-page.php:291
+msgid "Star's color"
+msgstr "De kleur van de ster"
+
+#: views/settings-page.php:294
+msgid "Choose the star's color"
+msgstr "Kies de kleur van de ster"
+
+#: views/settings-page.php:306
+msgid "Update settings"
+msgstr "Instellingen bijwerken"
+
+#: views/settings-page.php:315
+msgid "Reset plugin"
+msgstr "Reset plugin"
+
+#: views/settings-page.php:321
+msgid "Are you sure?"
+msgstr "Ben je zeker?"
+
+#: views/settings-page.php:322
+msgid "Delete all reviews"
+msgstr "Alle beoordelingen verwijderen"
+
+#: views/shortcode-footer.php:16
+msgid "Merchant approved by Guaranteed Reviews Company"
+msgstr "Merchant goedgekeurd door Gegarandeerde Beoordelingen Nederland"
+
+#: views/shortcode-footer.php:17
+msgid "click here to display our certification"
+msgstr "klik hier om het attest te tonen"
+
+#: views/shortcode-reviews-list.php:25 views/shortcode-reviews.php:90
+#, php-format
+msgid "Published on %1$s at %2$s"
+msgstr "Gepubliceerd op %1$s op %2$s"
+
+#: views/shortcode-reviews-list.php:28 views/shortcode-reviews.php:93
+#, php-format
+msgid "Order date: %1$s at %2$s"
+msgstr "Bestel datum: %1$s op %2$s"
+
+#: views/shortcode-reviews-list.php:38 views/shortcode-reviews.php:103
+msgid "Height :"
+msgstr "Hoogte :"
+
+#: views/shortcode-reviews-list.php:40 views/shortcode-reviews.php:105
+msgid "Weight :"
+msgstr "Gewicht :"
+
+#: views/shortcode-reviews-list.php:71 views/shortcode-reviews.php:136
+msgid "(Translated review)"
+msgstr "(Vertaalde recensie)"
+
+#: views/shortcode-reviews-list.php:76 views/shortcode-reviews.php:141
+msgid "Merchant's answer"
+msgstr "Antwoord van de handelaar"
+
+#: views/shortcode-reviews.php:15
+msgid "Reviews about product"
+msgstr "Beoordelingen over dit product"
+
+#: views/shortcode-reviews.php:19
+msgid "See certificate"
+msgstr "Toon attest"
+
+#: views/shortcode-reviews.php:69 views/shortcode-summary-1.php:35
+#: views/shortcode-summary.php:35
+#, php-format
+msgid "Based on %s review"
+msgid_plural "Based on %s reviews"
+msgstr[0] "Gebaseerd op %s recensie"
+msgstr[1] "Gebaseerd op %s recensies"
+
+#: views/shortcode-reviews.php:155
+msgid "Show more reviews"
+msgstr "Toon meer recensies"
+
+#: views/shortcode-summary-1.php:36 views/shortcode-summary.php:36
+msgid "See reviews"
+msgstr "Zie beoordelingen"
+
+#: views/shortcode-summary-2.php:63 views/shortcode-summary-3.php:59
+#, php-format
+msgid "(%s review)"
+msgid_plural "(%s reviews)"
+msgstr[0] "(%s recensie)"
+msgstr[1] "(%s recensies)"
+
+#: woocommerce-sag.php:119
+#, php-format
+msgid ""
+"Guaranteed Reviews Company - The minimum PHP version required for this "
+"plugin is %1$s. You are running %2$s."
+msgstr ""
+"Gegarandeerde Beoordelingen Nederland - De minimaal vereiste PHP-versie voor "
+"deze plugin is %1$s. U gebruikt %2$s."
+
+#: woocommerce-sag.php:124
+msgid ""
+"Guaranteed Reviews Company requires WooCommerce to be activated to work."
+msgstr ""
+"Gegarandeerde Beoordelingen Nederland  vereist dat WooCommerce is "
+"geactiveerd om te werken."
+
+#: woocommerce-sag.php:128
+#, php-format
+msgid ""
+"Guaranteed Reviews Company - The minimum WooCommerce version required for "
+"this plugin is %1$s. You are running %2$s."
+msgstr ""
+"Gegarandeerde Beoordelingen Nederland  - De minimale WooCommerce versie die "
+"nodig is voor deze plugin is %1$s. U bent %2$s aan het draaien."
+
+#~ msgid "GRC Horizontal widget"
+#~ msgstr "GBN Horizontale widget"
+
+#~ msgid ""
+#~ "Display horizontal widget with reviews (we recommend to place it in "
+#~ "header, footer or cart page)"
+#~ msgstr ""
+#~ "Toon horizontale widget met beoordelingen (wij raden aan om het in "
+#~ "header, footer of winkelwagen pagina te plaatsen)"
+
+#~ msgid "GRC Vertical widget"
+#~ msgstr "GBN Verticale widget"
+
+#~ msgid "Source language flags"
+#~ msgstr "Brontaalvlaggen"
+
+#~ msgid "Free until 25 orders per month"
+#~ msgstr "Gratuit jusqu’à 25 commandes / mois"
+
+#~ msgid ""
+#~ "An error occurred when trying to create an account. Please try to <a href="
+#~ "\"%s\" target=\"_blank\">register online</a>."
+#~ msgstr ""
+#~ "Pour continuer merci de vous enregistrer en <a href=\"%s\" target=\"_blank"
+#~ "\">cliquant ici</a>."
+
+#~ msgid "Site name"
+#~ msgstr "Nom de la boutique"
+
+#~ msgid "Site URL"
+#~ msgstr "URL de la boutique"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "French"
+#~ msgstr "Français"
+
+#~ msgid "English"
+#~ msgstr "Anglais"
+
+#~ msgid "I accept the terms and conditions of Guaranteed Reviews Company"
+#~ msgstr ""
+#~ "J'accepte les Conditions Générales de Vente de la Société des Avis "
+#~ "Garantis"

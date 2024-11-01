@@ -1,0 +1,484 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Woocommerce - Guaranteed Reviews Company\n"
+"POT-Creation-Date: 2022-11-15 17:00+0100\n"
+"PO-Revision-Date: 2022-11-15 17:00+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-sag.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#. Author of the plugin/theme
+#: inc/class-wc-sag-admin-page.php:27 inc/class-wc-sag-admin-page.php:28
+#: views/account-page.php:14 views/settings-page.php:14
+msgid "Guaranteed Reviews Company"
+msgstr "Gesellschaft für Garantierte Bewertungen"
+
+#: inc/class-wc-sag-admin-page.php:40
+msgid "View Guaranteed Reviews Company settings"
+msgstr "Ansicht GGB einstellungen"
+
+#: inc/class-wc-sag-admin-page.php:40
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: inc/class-wc-sag-shortcode-footer.php:30
+#: inc/class-wc-sag-widget-footer.php:42
+msgid "Error: cannot retrieve merchant certificate."
+msgstr "Fehler: Händlerzertifikat kann nicht abgerufen werden."
+
+#: inc/class-wc-sag-widget-footer.php:14
+msgid "GRC Checking link"
+msgstr "GGB Überprüfungs-Link"
+
+#: inc/class-wc-sag-widget-footer.php:15
+msgid ""
+"Display a checking link in the footer pointing to your attestation page. "
+"(Important for your SEO)"
+msgstr ""
+"Zeigt einen Überprüfungslink in der Fußzeile an, der auf Ihre "
+"Bescheinigungsseite verweist. (Wichtig für Ihr SEO)"
+
+#: inc/class-wc-sag-widget-footer.php:59 inc/class-wc-sag-widget-iframe.php:64
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/class-wc-sag-widget-iframe.php:14
+msgid "GRC Widget iFrame"
+msgstr "GBB Widget iFrame"
+
+#: inc/class-wc-sag-widget-iframe.php:15
+msgid ""
+"Display vertical or horizontal widget with reviews (we recommend to place it "
+"in a column or in the footer)"
+msgstr ""
+"Vertikales oder horizontales Widget mit Bewertungen anzeigen (wir empfehlen, "
+"es in einer Spalte oder in der Fußzeile zu platzieren)"
+
+#: inc/class-wc-sag-widget-iframe.php:45
+msgid "Please configure the plugin correctly to display this widget."
+msgstr ""
+"Bitte konfigurieren Sie das Plugin richtig, um dieses Widget anzuzeigen."
+
+#: inc/class-wc-sag-widget-iframe.php:68
+msgid "Iframe height:"
+msgstr "Iframe Höhe:"
+
+#: inc/class-wc-sag-widget-iframe.php:72
+msgid "Format:"
+msgstr "Format:"
+
+#: inc/class-wc-sag-widget-iframe.php:74
+msgid "Horizontal"
+msgstr "Horizontal"
+
+#: inc/class-wc-sag-widget-iframe.php:76
+msgid "Vertical"
+msgstr "Vertikal"
+
+#: views/account-page.php:25
+msgid "Create an account"
+msgstr "Konto erstellen"
+
+#: views/account-page.php:27
+msgid "Please create an account on to get an API key."
+msgstr "Bitte erstellen Sie ein Konto auf, um einen API-Schlüssel zu erhalten."
+
+#: views/account-page.php:31
+msgid "In less than 3 minutes!"
+msgstr "In weniger als 3 Minuten!"
+
+#: views/account-page.php:34
+msgid "30 days trial"
+msgstr "30 Tage Probezeit"
+
+#: views/account-page.php:40
+msgid "Account language"
+msgstr "Kontosprache"
+
+#: views/account-page.php:45
+msgid "French (Société des Avis Garantis)"
+msgstr "Französisch (Société des Avis Garantis)"
+
+#: views/account-page.php:49
+msgid "English (Guaranteed Reviews Company)"
+msgstr "Englisch (Guaranteed Reviews Company)"
+
+#: views/account-page.php:53
+msgid "Spanish (Sociedad de Opiniones Contrastadas)"
+msgstr "Spanisch (Sociedad de Opiniones Contrastadas)"
+
+#: views/account-page.php:57
+msgid "Italian (Società Recensioni Garantite)"
+msgstr "Italienisch (Società Recensioni Garantite)"
+
+#: views/account-page.php:61
+msgid "German (Gesellschaft für Garantierte Bewertungen)"
+msgstr "Deutsch (Gesellschaft für Garantierte Bewertungen)"
+
+#: views/account-page.php:65
+msgid "Dutch (Gegarandeerde Beoordelingen Nederland)"
+msgstr "Niederländisch (Gegarandeerde Beoordelingen Nederland)"
+
+#: views/account-page.php:72
+msgid "Create your account"
+msgstr "Erstellen Sie Ihr Konto"
+
+#: views/account-page.php:89
+msgid "Already registered?"
+msgstr "Bereits registriert?"
+
+#: views/account-page.php:94 views/settings-page.php:37
+msgid "API Key"
+msgstr "API-Schlüssel"
+
+#: views/account-page.php:100
+msgid "Available on your Guaranteed Reviews Company account. "
+msgstr "Verfügbar auf Ihrem GGB Konto "
+
+#: views/account-page.php:109
+msgid "Submit"
+msgstr "Senden"
+
+#: views/loop-star-rating.php:30
+#, php-format
+msgid "%s review"
+msgid_plural "%s reviews"
+msgstr[0] "%s note"
+msgstr[1] "%s noten"
+
+#: views/settings-page.php:17
+msgid "Settings saved!"
+msgstr "Einstellungen gespeichert!"
+
+#: views/settings-page.php:21
+msgid "All reviews successfully deleted"
+msgstr "Alle Bewertungen erfolgreich gelöscht"
+
+#: views/settings-page.php:25
+msgid "Account successfully created!"
+msgstr "Konto erfolgreich erstellt!"
+
+#: views/settings-page.php:32
+msgid "General settings"
+msgstr "Allgemeine Einstellungen"
+
+#: views/settings-page.php:91
+msgid "Order statuses to include"
+msgstr "Einzubeziehende Auftragsstatus"
+
+#: views/settings-page.php:100
+msgid ""
+"Select order statuses you want to send review requests (Use \"Ctrl\" "
+"keyboard key to select many ones)"
+msgstr ""
+"Wählen Sie die Auftragsstatus aus, für die Sie Überprüfungsanfragen senden "
+"möchten (verwenden Sie die \"Ctrl\"-Tastaturtaste, um mehrere auszuwählen)"
+
+#: views/settings-page.php:107
+msgid "Widget options"
+msgstr "Widget Optionen"
+
+#: views/settings-page.php:112
+msgid "Javascript"
+msgstr "JavaScript"
+
+#: views/settings-page.php:116
+msgid "Javascript widget"
+msgstr "Javascript-Widget"
+
+#: views/settings-page.php:119
+msgid "Enable Javascript widget"
+msgstr "Javascript-Widget einschalten"
+
+#: views/settings-page.php:127
+msgid "Product"
+msgstr "Produkt"
+
+#: views/settings-page.php:131
+msgid "Product widget"
+msgstr "Produkt-Widget"
+
+#: views/settings-page.php:134
+msgid "Enable product widget"
+msgstr "Produkt-Widget einschalten"
+
+#: views/settings-page.php:136
+msgid ""
+"Alternatively you can use <code>[wcsag_summary]</code> and "
+"<code>[wcsag_reviews]</code> shortcodes on your product page"
+msgstr ""
+"Alternativ können Sie die Shortcodes <code>[wcsag_summary]</code> und "
+"<code>[wcsag_reviews]</code> auf Ihrer Produktseite verwenden"
+
+#: views/settings-page.php:143 views/settings-page.php:147
+msgid "Minimum product reviews before display"
+msgstr "Mindestanzahl von Produktbewertungen vor der Anzeige"
+
+#: views/settings-page.php:150
+msgid ""
+"Choose number of reviews needed for widgets to be displayed (on product "
+"page)."
+msgstr ""
+"Wählen Sie die Anzahl der Bewertungen, die für die Anzeige der Widgets (auf "
+"der Produktseite) erforderlich sind."
+
+#: views/settings-page.php:158 views/settings-page.php:162
+msgid "Product widget rating"
+msgstr "Widget Produktbewertung"
+
+#: views/settings-page.php:164
+msgid "Choose Widget product rating style (On product pages)"
+msgstr "Wählen Sie den Stil der Widget-Produktbewertung (auf Produktseiten)"
+
+#: views/settings-page.php:169 views/settings-page.php:219
+msgid "Disable"
+msgstr "Deaktivieren"
+
+#: views/settings-page.php:171
+msgid "Classic style"
+msgstr "Klassischer Stil"
+
+#: views/settings-page.php:173
+msgid "Logo & stars"
+msgstr "Logo & Sterne"
+
+#: views/settings-page.php:175
+msgid "Stars"
+msgstr "Sterne"
+
+#: views/settings-page.php:209 views/settings-page.php:213
+msgid "Country flags on product widget"
+msgstr "Länderflaggen im Produkt-Widget"
+
+#: views/settings-page.php:215
+msgid "Choose when the country flag is displayed (on product pages)"
+msgstr "Wählen Sie, wann die Landesflagge angezeigt wird (auf Produktseiten)"
+
+#: views/settings-page.php:221
+msgid "Enable only for translated reviews"
+msgstr "Nur für übersetzte Bewertungen aktivieren"
+
+#: views/settings-page.php:223
+msgid "Enable for every review"
+msgstr "Aktivieren für jede Bewertung"
+
+#: views/settings-page.php:231
+msgid "Iframe"
+msgstr "Iframe"
+
+#: views/settings-page.php:235
+#, php-format
+msgid ""
+"Use <code>[wcsag_iframe]</code> shortcode or our widget in <a href=\"%s"
+"\">Appearance > Widgets</a>."
+msgstr ""
+"Verwenden Sie den Shortcode <code>[wcsag_iframe]</code> oder unser Widget in "
+"<a href=\"%s\">Darstellung > Widgets</a>."
+
+#: views/settings-page.php:241
+msgid "Footer"
+msgstr "Footer"
+
+#: views/settings-page.php:245
+msgid "Footer widget"
+msgstr "Footer-Widget"
+
+#: views/settings-page.php:248
+msgid "Enable footer widget"
+msgstr "Fußzeilen-Widget einschalten"
+
+#: views/settings-page.php:250
+#, php-format
+msgid ""
+"Works with storefront based themes. Alternatively you can use "
+"<code>[wcsag_footer]</code> shortcode or our widget in <a href=\"%s"
+"\">Appearance > Widgets</a>."
+msgstr ""
+"Funktioniert mit Storefront-basierten Themes. Alternativ können Sie den "
+"Shortcode <code>[wcsag_footer]</code> oder unser Widget in <a href=\"%s"
+"\">Darstellung > Widgets</a> verwenden."
+
+#: views/settings-page.php:257 views/settings-page.php:261
+msgid "Loop rating"
+msgstr "Schleifenleistung"
+
+#: views/settings-page.php:264
+msgid "Display star rating on product list"
+msgstr "Sterne-Bewertung in der Produktliste anzeigen"
+
+#: views/settings-page.php:272 views/settings-page.php:276
+msgid "Maximum product reviews"
+msgstr "Maximale Produktbewertungen"
+
+#: views/settings-page.php:279
+msgid ""
+"Choose how many product reviews you would like to show by default before "
+"showing the \"Show more reviews\" button"
+msgstr ""
+"Wählen Sie, wie viele Produktbewertungen Sie standardmäßig anzeigen möchten, "
+"bevor Sie die Schaltfläche \"Weitere Bewertungen anzeigen\" einblenden"
+
+#: views/settings-page.php:287 views/settings-page.php:291
+msgid "Star's color"
+msgstr "Die Farbe des Sterns"
+
+#: views/settings-page.php:294
+msgid "Choose the star's color"
+msgstr "Wählen Sie die Farbe des Sterns"
+
+#: views/settings-page.php:306
+msgid "Update settings"
+msgstr "Einstellungen aktualisieren"
+
+#: views/settings-page.php:315
+msgid "Reset plugin"
+msgstr "Plugin zurücksetzen"
+
+#: views/settings-page.php:321
+msgid "Are you sure?"
+msgstr "Sind Sie sicher?"
+
+#: views/settings-page.php:322
+msgid "Delete all reviews"
+msgstr "Alle Bewertungen löschen"
+
+#: views/shortcode-footer.php:16
+msgid "Merchant approved by Guaranteed Reviews Company"
+msgstr ""
+"Händler, die von der Gesellschaft für Garantierte Bewertungen zugelassen ist"
+
+#: views/shortcode-footer.php:17
+msgid "click here to display our certification"
+msgstr "klicken Sie hier"
+
+#: views/shortcode-reviews-list.php:25 views/shortcode-reviews.php:90
+#, php-format
+msgid "Published on %1$s at %2$s"
+msgstr "Veröffentlicht am %1$s um %2$s"
+
+#: views/shortcode-reviews-list.php:28 views/shortcode-reviews.php:93
+#, php-format
+msgid "Order date: %1$s at %2$s"
+msgstr "Bestelldatum: %1$s um %2$s"
+
+#: views/shortcode-reviews-list.php:38 views/shortcode-reviews.php:103
+msgid "Height :"
+msgstr "Größe :"
+
+#: views/shortcode-reviews-list.php:40 views/shortcode-reviews.php:105
+msgid "Weight :"
+msgstr "Gewicht :"
+
+#: views/shortcode-reviews-list.php:71 views/shortcode-reviews.php:136
+msgid "(Translated review)"
+msgstr "(Übersetzte Rezension)"
+
+#: views/shortcode-reviews-list.php:76 views/shortcode-reviews.php:141
+msgid "Merchant's answer"
+msgstr "Antwort des Händlers"
+
+#: views/shortcode-reviews.php:15
+msgid "Reviews about product"
+msgstr "Bewertungen zum Produkt"
+
+#: views/shortcode-reviews.php:19
+msgid "See certificate"
+msgstr "Vertrauenszeugnis"
+
+#: views/shortcode-reviews.php:69 views/shortcode-summary-1.php:35
+#: views/shortcode-summary.php:35
+#, php-format
+msgid "Based on %s review"
+msgid_plural "Based on %s reviews"
+msgstr[0] "auf %s Bewertung"
+msgstr[1] "auf %s Bewertungen"
+
+#: views/shortcode-reviews.php:155
+msgid "Show more reviews"
+msgstr "Weitere Bewertungen anzeigen"
+
+#: views/shortcode-summary-1.php:36 views/shortcode-summary.php:36
+msgid "See reviews"
+msgstr "Anzeigen"
+
+#: views/shortcode-summary-2.php:63 views/shortcode-summary-3.php:59
+#, php-format
+msgid "(%s review)"
+msgid_plural "(%s reviews)"
+msgstr[0] "(%s note)"
+msgstr[1] "(%s noten)"
+
+#: woocommerce-sag.php:119
+#, php-format
+msgid ""
+"Guaranteed Reviews Company - The minimum PHP version required for this "
+"plugin is %1$s. You are running %2$s."
+msgstr ""
+"Gesellschaft für Garantierte Bewertungen - Die für dieses Plugin mindestens "
+"erforderliche PHP-Version ist %1$s. Sie verwenden %2$s."
+
+#: woocommerce-sag.php:124
+msgid ""
+"Guaranteed Reviews Company requires WooCommerce to be activated to work."
+msgstr ""
+"Gesellschaft für Garantierte Bewertungen erfordert WooCommerce aktiviert "
+"werden, um zu arbeiten."
+
+#: woocommerce-sag.php:128
+#, php-format
+msgid ""
+"Guaranteed Reviews Company - The minimum WooCommerce version required for "
+"this plugin is %1$s. You are running %2$s."
+msgstr ""
+"Gesellschaft für Garantierte Bewertungen - Die für dieses Plugin "
+"erforderliche Mindestversion von WooCommerce ist %1$s. Sie verwenden %2$s."
+
+#. Plugin Name of the plugin/theme
+msgid "Woocommerce - Guaranteed Reviews Company"
+msgstr "Woocommerce - Gesellschaft für Garantierte Bewertungen"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.guaranteed-reviews.com/"
+msgstr "https://www.guaranteed-reviews.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Shop and/or product reviews, Google stars, Trusted certificate, automatic "
+"validation (option), review files importation…"
+msgstr ""
+"Shop und/oder Produktbewertungen, Google-Sterne, Trusted-Zertifikat, "
+"automatische Validierung (Option), Import von Bewertungsdateien..."
+
+#. Author URI of the plugin/theme
+msgid "http://www.guaranteed-reviews.com/"
+msgstr "http://www.guaranteed-reviews.com/"
+
+#~ msgid "GRC Horizontal widget"
+#~ msgstr "GGB Horizontal widget"
+
+#~ msgid ""
+#~ "Display horizontal widget with reviews (we recommend to place it in "
+#~ "header, footer or cart page)"
+#~ msgstr ""
+#~ "Anzeige horizontalen Widgets mit Bewertungen (wir empfehlen, es in der "
+#~ "Kopfzeile, in der Fußzeile oder auf der Warenkorbseite zu platzieren)"
+
+#~ msgid "GRC Vertical widget"
+#~ msgstr "GGB Vertical widget"
+
+#~ msgid "Source language flags"
+#~ msgstr "Flaggen der Ausgangssprache"
